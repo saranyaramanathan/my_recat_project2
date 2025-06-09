@@ -1,7 +1,7 @@
 import { useEffect,useState } from "react";
 import CartItem from "./CartItem";
 import { useLocation } from "react-router";
-import TopBar from "./TopBar";
+
 import { Link } from "react-router";
 function Cart()
 {

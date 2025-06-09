@@ -4,7 +4,7 @@ import Home from './Home';
 import CartItem from './CartItem';
 import { Helmet } from "react-helmet";
 import Cart from './Cart';
-import TopBar from './TopBar';
+
 function App() {
   return(
     <div>
