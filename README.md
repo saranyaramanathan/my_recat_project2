@@ -1,12 +1,38 @@
-# React + Vite
+**🛍️ Fake Store App**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  A simple and interactive e-commerce web application built with React that uses the FakeStoreAPI to simulate a real online shopping experience. This project demonstrates      React fundamentals, API integration, dynamic routing, state management, and component-based architecture.
 
-Currently, two official plugins are available:
+  **🚀 Features**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    🏠 Home Page – Displays a list of products fetched from FakeStoreAPI.
 
-## Expanding the ESLint configuration
+    ➕ Add to Cart – Add items to the cart with a click.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    🛒 Cart Popup – View items in your cart in cart list page.
+
+    ❌ Remove Items – Remove items individually from the cart.
+
+    🔢 Cart Count – Dynamic cart item count shown in the header.
+
+    🚨 Duplicate Alert – If an item is already added, a warning/alert is shown.
+
+    📱 Responsive Design – Works well on desktop and mobile devices.
+
+  **🛠️ Tech Stack**
+
+    React
+
+    React Router v6
+
+    Tailwind CSS 
+
+    JavaScript (ES6+)
+
+    FakeStore API
+
+  **📦 Installation**
+
+    git clone https://github.com/your-username/fake-store-app.git
+    cd my_react_project2
+    npm install
+    npm start
