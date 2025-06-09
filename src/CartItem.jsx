@@ -39,7 +39,7 @@ function CartItem({item,removeItem}){
                         </td>
                         <td class="px-6 py-4">
                             <div class="flex">
-                                <button id="decrement-btn" onClick={() => { setCounter(counter - 1) }}
+                                <button id="decrement-btn"disabled={counter<=1} onClick={() => { setCounter(counter - 1) }}
                                     class="flex justify-center items-center w-5 h-5 rounded-full text-white focus:outline-none bg-gray-400 hover:bg-gray-500">
                                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                                         xmlns="http://www.w3.org/2000/svg">
